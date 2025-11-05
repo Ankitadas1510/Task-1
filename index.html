@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Weather App</h1>
+        <p class="tagline">Check today’s weather in a fun way! </p>
+
+        <div class="cards">
+            <div class="weather-card" data-city="Mumbai">
+                <h2>Mumbai</h2>
+                <p class="temp">32°C</p>
+                <button class="btn">View Details</button>
+            </div>
+
+            <div class="weather-card" data-city="Delhi">
+                <h2>Delhi</h2>
+                <p class="temp">24°C</p>
+                <button class="btn">View Details</button>
+            </div>
+
+            <div class="weather-card" data-city="Bangalore">
+                <h2>Bangalore</h2>
+                <p class="temp">28°C</p>
+                <button class="btn">View Details</button>
+            </div>
+        </div>
+
+        <div id="detailsBox"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
